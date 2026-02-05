@@ -202,8 +202,13 @@ For each Direction (Option A, B, C), specify:
 5. Overall Style (e.g. Glassmorphism, Minimalist, Bold)
 
 SELECTION INSTRUCTION:
-'Ask the user to review the 3 Visual Directions and Reply with their choice (e.g., "Option A" or "Mix of A layout with C colors").
-Once the user selects a direction, WRITE the final detailed Visual Prompt based on their choice and append it to the file `specific_prompts.txt` under the section 'VISUAL PROMPT'.'"
+'Ask the user to review the 3 Visual Directions and Reply with their choice.
+Once the user selects a direction, WRITE the final detailed Design System based on their choice and append it to the file `specific_prompts.txt` under the section 'DESIGN SYSTEM (REQUIRED)'.
+The Design System must include:
+- Typography details
+- Color Palette (Primary, Secondary, Accent, Background, Text)
+- Component Styles (Buttons, Cards, Forms)
+- Layout principles'"
 
 --------------------------------------------------------------------------------
 
@@ -212,29 +217,28 @@ Append this to specific_prompts.txt:
 'FINAL PROMPT: 
 
 1. **Setup**: Create a new Project in the Stitch MCP titled "[Product Name] Landing Page".
-2. **Generation**: Using the @stitch MCP and the new Project ID, generate a complete, high-fidelity landing page screen based on the structured content and design specifications in @specific_prompts.txt.
+2. **Generation**: Using the @stitch MCP and the new Project ID, generate a complete, high-fidelity landing page screen based on the structured content and design specifications in this file, following these instructions:
+   a. **Design System**: Strictly adhere to the "DESIGN SYSTEM (REQUIRED)" section at the end of the file.
+   b. **Content Integration**:
+      - **Hero Section**: Use the selected Headline and Sub-headline.
+      - **Problem Section**: Implement the PAS (Problem-Agitate-Solve) copy.
+      - **Value Props**: Display the core features and benefit-driven headlines.
+      - **Social Proof**: Include the generated testimonials.
+      - **CTA**: Place the Call to Action and signup form as specified. Note: use the google form embed code for the form.
+   c. **Technical Requirements**:
+      - Ensure the site is fully responsive (mobile-friendly).
+      - Use semantic HTML and modern CSS.
+      - minimise dependencies on external libraries.
+      - optimize for fast loading and accessibility.
+      - the site should be static HTML/CSS/JS suitable for deployment as a static site to Firebase Hosting (note NOT Firebase App Hosting)
+   d. Add boilerplate pages for about us, privacy policy and terms of service and link to them from the landing page footer.
+   e. If a Gemini chatbot is added do not make it require a login. It should be available to all visitors. It should not require microphone nor camera permissions.
 
-Please follow these instructions:
-1. **Visual Direction**: Strictly adhere to the "VISUAL PROMPT" section at the end of the file for the color palette, typography, layout, and overall style (e.g., Glassmorphism, Minimalist).
-2. **Content Integration**:
-   - **Hero Section**: Use the selected Headline and Sub-headline.
-   - **Problem Section**: Implement the PAS (Problem-Agitate-Solve) copy.
-   - **Value Props**: Display the core features and benefit-driven headlines.
-   - **Social Proof**: Include the generated testimonials.
-   - **CTA**: Place the Call to Action and signup form as specified. Note: use the google form embed code for the form.
-3. **Technical Requirements**:
-   - Ensure the site is fully responsive (mobile-friendly).
-   - Use semantic HTML and modern CSS (or Tailwind if specified in the design).
-   - optimize for fast loading and accessibility.
-   - the site should be static HTML/CSS/JS suitable for deployment as a static site to Firebase Hosting (note NOT Firebase App Hosting)
-4. Add boilerplate pages for about us, privacy policy and terms of service and link to them from the landing page footer.
-5. If a Gemini chatbot is added do not make it require a login. It should be available to all visitors. It should not require microphone nor camera permissions.
+Execute the site generation using the Stitch MCP and provide the preview link or file path.
 
-Execute the site generation and provide the preview link or file path.
-
-Once complete, show the user this message: "The landing page is ready . 
+Once complete, show the user this message: "The landing page is ready. 
 TODO: 
 -   Deploy it to a hosting service eg Firebase Hosting.
 -   Add analytics to track visits and conversions.
 -   Add a custom domain.
-"
+"'
