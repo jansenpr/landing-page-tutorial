@@ -1,0 +1,192 @@
+EARLY STAGE STARTUP & STARTUP WEEKEND LANDING PAGE PROMPT TO CREATE SPECIFIC LANDING PAGE PROMPTS
+
+This prompt is a long process, a meta-prompt which will make suggestions, quiz the user and output to a specific prompt suitable for their chosen startup.
+
+DEPENDENCY INSTALLATION:
+Tell the user 
+"Go to Google Stitch and get an api key from https://stitch.withgoogle.com/settings by clicking 'Create Key'
+Tell the user to do this to Install the Google Stitch MCP tool in Antigravity:
+In the Agent Panel, click the three dots in the top right and select MCP Servers. Click, Manage MCP Servers. Select “View raw config” and add the following entry:
+
+{
+  "mcpServers": {
+    "stitch": {
+      "serverUrl": "https://stitch.googleapis.com/mcp",
+      "headers": {
+        "X-Goog-Api-Key": "YOUR-API-KEY"
+      }
+    }
+  }
+}"
+
+START EXECUTING THIS META-PROMPT TO GATHER INFORMATION AND GENERATE THE SPECIFIC PROMPT:
+
+First, clear the text file @specific_prompts.txt this will be where we write out the results from this prompt.
+
+CONTEXT FOR GEMINI:
+Copy and paste the following context setting before running the individual prompts below.
+"You are a world-class Direct Response Copywriter and experienced Startup Weekend Mentor. You specialize in helping teams validate ideas quickly (within 54 hours) by creating high-converting, credible, and punchy 'Smoke Test' landing pages. Your goal is to drive immediate action (Waitlist Join or Pre-sale). Use a tone that is urgent, professional, exciting, and clear. Avoid corporate jargon and fluff. Focus on the 'Transformation' and the 'Dream Outcome'."
+
+Add this context to the top of the file @specific_prompts.txt before running the individual prompts below.
+
+--------------------------------------------------------------------------------
+
+First, quiz the user for the following information. Stop and wait for their answers before proceeding to the Prompts.
+
+**PART 1: CORE IDENTITY & MARKET**
+1. Product Name?
+2. Company Name?
+3. Domain Name (if decided)?
+4. Target Audience (Who exactly is this for?)
+
+**PART 2: THE PROBLEM & SOLUTION**
+5. What is the specific problem/pain point your product solves?
+6. What is the "Old Way" they currently use to solve it? (Why does it fail?)
+7. What is your "New Opportunity" / Solution?
+8. What are the product's core Strengths, Weaknesses, Opportunities, and Threats? (SWOT)
+
+**PART 3: VALUE & MECHANISM**
+9. What is the Unique Mechanism? (How does it work? e.g. "AI-driven X")
+10. What is the Functional Benefit + Timeframe? (Specific result in concrete time)
+11. What is the Emotional Dream Outcome? (Identity shift or ultimate relief)
+
+**PART 4: OFFER & ACTION**
+12. What is the Primary Call to Action (CTA)? (Waitlist, Pre-order, Free Trial?)
+13. What is the Low-Risk/High-Reward offer? (e.g. "Free Audit", "Instant Access")
+14. How do you reduce risk/friction? (e.g. "No credit card", "Cancel anytime")
+15. What is the optional "Insight Question" you want to ask on the signup form?
+
+**PART 5: CONTEXT**
+16. What are the key Opportunities & Threats? (SWOT - helpful for positioning)
+17. (Optional) Do you have any specific visual references or color preferences?
+
+Write out all the questions and answers given to @specific_prompts.txt.
+
+PROMPT 1: HERO SECTION (HEADLINE & SUB-HEADLINE)
+
+"I need 10 Headline and Sub-headline variations for my landing page hero section.
+
+HEADLINE REQUIREMENTS:
+Combine three critical elements in each headline:
+1. Emotional Dream Outcome: The identity shift or ultimate relief (e.g., Freedom, Status, Control).
+2. Functional Benefit with Timeframe: Specific result in concrete time (e.g., in 24 hours).
+3. Unique Mechanism or Proof: Why is this possible? (e.g., 'Using AI-driven X').
+
+SUB-HEADLINE REQUIREMENTS:
+- Build directly on the headline.
+- Explain the 'How' or the mechanism briefly.
+- Lead specifically into a Call to Action (CTA).
+
+FORMATTING RULES:
+- BOLD, DIRECT, and BENEFIT-DRIVEN.
+- NO em dashes (—). Use standard punctuation.
+- Organize in a Table: | Variation | Headline | Sub-headline |
+
+EXAMPLE:
+Headline: Get Business Funding Up to $2 Million in 24 Hours Using Your Property as Collateral
+Sub-headline: The only funding platform that uses AI-driven property valuation to approve your loan instantly. Stop waiting weeks for banks—get the capital you need to grow today."
+
+SELECTION INSTRUCTION:
+"Ask the user to review the variations and Reply with the number of their favorite Headline/Sub-headline combo.
+Once the user replies with their choice, append the selected Headline and Sub-headline to the file `specific_prompts.txt` under the section 'HERO SECTION'."
+
+--------------------------------------------------------------------------------
+
+PROMPT 2: THE PROBLEM SECTION (PAS FRAMEWORK)
+
+"Write one compelling 'Problem-Agitate-Solve' (PAS) section to follow the hero.
+
+STRUCTURE:
+1. OPENING: Start with 'Dear [Target Audience],' then list 3 sharp, painful questions as bullet points (e.g., 'Are you tired of...?').
+2. PROBLEM (Empathy): Acknowledge their situation. Validating their struggle. Use 'You' language.
+3. AGITATE (The Cost of Inaction): Visually describe the frustration. What are they losing? What happens if they don't solve this? Make it emotional.
+4. SOLVE (The Bridge): Introduce my product as the 'New Opportunity'. Briefly dismiss the 'Old Way' they hate.
+
+FORMATTING RULES for SCANNABILITY:
+- Sentences under 15 words.
+- Max 2 sentences per paragraph.
+- Use bolding for key phrases (e.g., __NOTHING worked__).
+- NO em dashes.
+- Conversational tone, like a friend offering advice."
+
+FINALIZATION INSTRUCTION:
+"Ask the user for feedback. Once approved, append the final PAS section to the file `specific_prompts.txt` under the section 'THE PROBLEM SECTION'."
+
+--------------------------------------------------------------------------------
+
+PROMPT 3: VALUE PROPOSITIONS
+
+"First, identify the top 6 distinct Value Propositions for this product based on my description. Focus on 'Differentiation'—what makes this unique?
+
+Then, write a conversion-focused Headline for each Value Prop.
+Formula: [Action Verb] + [Specific Feature] + [Emotional Benefit].
+
+REQUIREMENTS:
+- Focus on: Freedom, Confidence, Speed, or Status.
+- Keep headlines 12-18 words.
+- Be concrete (use numbers/metrics if possible).
+- Output as a Table: | # | Core Feature | Benefit-Driven Headline |
+
+EXAMPLE HEADLINE:
+'Automate your daily reporting to save 10 hours a week and regain your peace of mind.'"
+
+SELECTION INSTRUCTION:
+"Ask the user to review the Value Propositions. They may choose to keep all of them or select specific ones.
+Once the user confirms the selection, append the selected Value Propositions (Features + Headlines) to the file `specific_prompts.txt` under the section 'VALUE PROPOSITIONS'."
+
+--------------------------------------------------------------------------------
+
+PROMPT 4: SOCIAL PROOF (FUTURE TESTIMONIALS)
+
+"Write 3 variations of a 'Future User' testimonial. 
+Since the business is not fully live yet (Startup Weekend project), we need social proof based on the *concept* or *market research*.
+
+REQUIREMENTS:
+- Create a placeholder persona (Name + Title) relevant to the target audience.
+- The testimonial should express extreme enthusiasm for the SOLUTION to be released.
+- Phrasing should be anticipatory (e.g., 'Finally, a tool that will...', 'I've been waiting for something like this...').
+- Highlights the specific pain point they are desperate to solve.
+
+FORMAT:
+'“ [Quote expressing relief/excitement about the upcoming solution] ”'
+- [Name], [Title]"
+
+SELECTION INSTRUCTION:
+"Ask the user to review the testimonials and Reply with the number of their favorite one (or they can ask to keep all 3).
+Once the user replies, append the selected Testimonial(s) to the file `specific_prompts.txt` under the section 'SOCIAL PROOF'."
+
+--------------------------------------------------------------------------------
+
+PROMPT 5: CALL TO ACTION (CTA) & FORM SECTION
+
+"I need 5 variations for the Primary Call-to-Action (CTA) area and Signup Form. Since this is a Startup Weekend MVP, the goal is often a Waitlist Signup or Low-Friction Trial.
+
+REQUIREMENTS:
+- Make it 'Low Risk, High Reward'.
+- Highlight exactly what they get immediately (e.g., 'Instant Access', 'Free Report', 'Priority Spot').
+- Overcome hesitation (e.g., 'No credit card required', 'Cancel anytime').
+- Tone: Service-oriented and inviting, not pushy.
+- **Form Addition**: Include one strategic, optional question to ask the user (e.g., 'What is the #1 problem this app will solve for you?') to gain qualitative market insight.
+
+Output as a Table: | Variation | CTA Button Text | Supporting Micro-Copy | Optional Insight Question |"
+
+SELECTION INSTRUCTION:
+"Ask the user to review the CTA variations and Reply with the number of their favorite one.
+Once the user replies, append the selected CTA details to the file `specific_prompts.txt` under the section 'CALL TO ACTION'."
+
+--------------------------------------------------------------------------------
+
+BONUS PROMPT: GOOGLE STITCH / VISUAL GENERATION
+
+"Act as a UI/UX Designer. Based on the copy above and the product details, propose 3 distinct 'Visual Directions' for the landing page that are appropriate for this business.
+
+For each Direction (Option A, B, C), specify:
+1. Layout Description (e.g. Split screen, Centered Hero, Dark Mode SaaS)
+2. Color Palette (suggest specific colors with psychological reasoning)
+3. Hero Image Concept (describe the visual)
+4. Typography suggestions
+5. Overall Style (e.g. Glassmorphism, Minimalist, Bold)
+
+SELECTION INSTRUCTION:
+'Ask the user to review the 3 Visual Directions and Reply with their choice (e.g., "Option A" or "Mix of A layout with C colors").
+Once the user selects a direction, WRITE the final detailed Visual Prompt based on their choice and append it to the file `specific_prompts.txt` under the section 'VISUAL PROMPT'.'"
