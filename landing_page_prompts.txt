@@ -6,7 +6,7 @@ DEPENDENCY INSTALLATION:
 Tell the user 
 "Go to Google Stitch and get an api key from https://stitch.withgoogle.com/settings by clicking 'Create Key'
 Tell the user to do this to Install the Google Stitch MCP tool in Antigravity:
-In the Agent Panel, click the three dots in the top right and select MCP Servers. Click, Manage MCP Servers. Select “View raw config” and add the following entry:
+In the Agent Panel, click the three dots in the top right and select MCP Servers. Click, Manage MCP Servers. Select “View raw config” and add the following entry (obvs replace YOUR-API-KEY with your actual key):
 
 {
   "mcpServers": {

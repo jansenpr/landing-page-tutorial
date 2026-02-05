@@ -12,6 +12,29 @@ The wizard guides you through a step-by-step process to:
 3. Select visual design directions.
 4. Generate the actual code for the landing page.
 
+## Prerequisites
+
+Before running the wizard, you must install the **Google Stitch MCP** in Antigravity:
+
+1.  **Get API Key**: Go to [Stitch Settings](https://stitch.withgoogle.com/settings) and click 'Create Key'.
+2.  **Configure Agent**:
+    *   Click the three dots in the top right of the Agent Panel.
+    *   Select **MCP Servers** -> **Manage MCP Servers**.
+    *   Select **View raw config** and add this entry:
+
+    ```json
+    {
+      "mcpServers": {
+        "stitch": {
+          "serverUrl": "https://stitch.googleapis.com/mcp",
+          "headers": {
+            "X-Goog-Api-Key": "YOUR-API-KEY"
+          }
+        }
+      }
+    }
+    ```
+
 ## Usage
 
 ### Step 1: Initialize the Wizard
@@ -27,8 +50,9 @@ Execute the meta-prompt detailed in @landing_page_prompts.txt. Start from the be
 The Agent will:
 1. Read the `landing_page_prompts.txt` file.
 2. Initialize the context.
-3. Ask you various questions.
+3. Ask you various questions to understand your product.
 4. Proceed through the prompts individually, writing your specific requirements to `specific_prompts.txt`.
+5. Guide you to create a Google Form and embed it.
 
 ### Step 3: Trigger Generation
 
@@ -37,3 +61,9 @@ Once the wizard completes the interview and populates the specific prompts, trig
 ```text
 Execute the instructions in @specific_prompts.txt
 ```
+
+### Features Included
+- **Design System**: Generates a tailored design system based on your preferences.
+- **Conversion Copy**: Creates PAS (Problem-Agitate-Solve) copy and value props.
+- **Technical**: Generates static HTML/CSS suitable for Firebase Hosting with minimal external dependencies.
+- **Boilerplate**: Includes links to Privacy Policy and Terms of Service.
