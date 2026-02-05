@@ -174,9 +174,23 @@ SELECTION INSTRUCTION:
 "Ask the user to review the CTA variations and Reply with the number of their favorite one.
 Once the user replies, append the selected CTA details to the file `specific_prompts.txt` under the section 'CALL TO ACTION'."
 
+PROMPT 6: GOOGLE FORM CREATION
+
+"Ask the user to create the signup form to ensure it helps them capture leads immediately.
+
+INSTRUCTIONS FOR THE USER:
+1. Please go to https://forms.new in your own browser.
+2. Title the form matching our 'Low-Risk/High-Reward offer'.
+3. Add fields: Name, Email (Required), and our selected 'Insight Question'.
+4. Click 'Send' -> '< >' (Embed) -> Copy the HTML code.
+5. Paste the embed code here in the chat.
+
+ACTION:
+Once the user provides the code, append it to `specific_prompts.txt` under a new section titled 'FORM EMBED CODE'."
+
 --------------------------------------------------------------------------------
 
-BONUS PROMPT: GOOGLE STITCH / VISUAL GENERATION
+PROMPT 7: VISUAL CHOICES
 
 "Act as a UI/UX Designer. Based on the copy above and the product details, propose 3 distinct 'Visual Directions' for the landing page that are appropriate for this business.
 
@@ -190,3 +204,28 @@ For each Direction (Option A, B, C), specify:
 SELECTION INSTRUCTION:
 'Ask the user to review the 3 Visual Directions and Reply with their choice (e.g., "Option A" or "Mix of A layout with C colors").
 Once the user selects a direction, WRITE the final detailed Visual Prompt based on their choice and append it to the file `specific_prompts.txt` under the section 'VISUAL PROMPT'.'"
+
+--------------------------------------------------------------------------------
+
+Append this to specific_prompts.txt:
+
+'FINAL PROMPT: 
+
+1. **Setup**: Create a new Project in the Stitch MCP titled "[Product Name] Landing Page".
+2. **Generation**: Using the @stitch MCP and the new Project ID, generate a complete, high-fidelity landing page screen based on the structured content and design specifications in @specific_prompts.txt.
+
+Please follow these instructions:
+1. **Visual Direction**: Strictly adhere to the "VISUAL PROMPT" section at the end of the file for the color palette, typography, layout, and overall style (e.g., Glassmorphism, Minimalist).
+2. **Content Integration**:
+   - **Hero Section**: Use the selected Headline and Sub-headline.
+   - **Problem Section**: Implement the PAS (Problem-Agitate-Solve) copy.
+   - **Value Props**: Display the core features and benefit-driven headlines.
+   - **Social Proof**: Include the generated testimonials.
+   - **CTA**: Place the Call to Action and signup form as specified. Note: use the google form embed code for the form.
+3. **Technical Requirements**:
+   - Ensure the site is fully responsive (mobile-friendly).
+   - Use semantic HTML and modern CSS (or Tailwind if specified in the design).
+   - optimize for fast loading and accessibility.
+   - the site should be static HTML/CSS/JS suitable for deployment as a static site to Firebase Hosting (note NOT Firebase App Hosting)
+
+Execute the site generation and provide the preview link or file path.'
