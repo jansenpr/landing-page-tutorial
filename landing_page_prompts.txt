@@ -227,5 +227,14 @@ Please follow these instructions:
    - Use semantic HTML and modern CSS (or Tailwind if specified in the design).
    - optimize for fast loading and accessibility.
    - the site should be static HTML/CSS/JS suitable for deployment as a static site to Firebase Hosting (note NOT Firebase App Hosting)
+4. Add boilerplate pages for about us, privacy policy and terms of service.
+5. There is no need to add a chatbot. This will be added in the future.
 
-Execute the site generation and provide the preview link or file path.'
+Execute the site generation and provide the preview link or file path.
+
+Once complete, show the user this message: "The landing page is ready . 
+TODO: 
+-   Deploy it to a hosting service eg Firebase Hosting.
+-   Add analytics to track visits and conversions.
+-   Add a custom domain.
+"
