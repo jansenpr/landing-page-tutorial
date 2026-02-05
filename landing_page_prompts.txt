@@ -214,7 +214,7 @@ The Design System must include:
 
 Append this to specific_prompts.txt:
 
-'FINAL PROMPT: 
+'SITE GENERATION PROMPT: 
 
 1. **Setup**: Create a new Project in the Stitch MCP titled "[Product Name] Landing Page".
 2. **Generation**: Using the @stitch MCP and the new Project ID, generate a complete, high-fidelity landing page screen based on the structured content and design specifications in this file, following these instructions:
@@ -236,9 +236,28 @@ Append this to specific_prompts.txt:
 
 Execute the site generation using the Stitch MCP and provide the preview link or file path.
 
-Once complete, show the user this message: "The landing page is ready. 
-TODO: 
--   Deploy it to a hosting service eg Firebase Hosting.
--   Add analytics to track visits and conversions.
--   Add a custom domain.
+**DEPLOYMENT INSTRUCTIONS (Agentic CLI):**
+1.  **Project Creation**: 
+    - Ask the user to go to [console.firebase.google.com](https://console.firebase.google.com) and create a new project named "[Product Name]".
+    - Ask them to Enable Google Analytics for the project when prompted.
+    - Ask them to reply with the "Project ID" (found in Project Settings, e.g., `my-app-12345`).
+
+2.  **Authentication**:
+    - Run `firebase login --no-localhost`.
+    - If not logged in, this will provide a URL and a code. Show these to the user and ask them to authenticate in their browser and paste the verification code back to you.
+
+3.  **Initialization**:
+    - Once logged in and provided with the Project ID, do NOT run `firebase init`.
+    - Instead, directly create the configuration files:
+      - Create `firebase.json` with standard hosting configuration pointing to your public folder (where `index.html` is).
+      - Create `.firebaserc` with content: `{"projects": {"default": "USER_PROVIDED_PROJECT_ID"}}`.
+
+4.  **Deployment**:
+    - Run `firebase deploy --only hosting`.
+    - Provide the user with the final "Hosting URL" and display the following success message:
+    
+    "**The landing page is ready at: [Hosting URL]**
+
+    **TODO:**
+    -   **Add a custom domain**: Go to Firebase Console -> Hosting -> 'Add Custom Domain'. Enter your domain (e.g., www.example.com) and follow the onscreen instructions to add the TXT records to your DNS provider."
 "'

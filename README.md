@@ -1,23 +1,23 @@
-# Antigravity Landing Page Wizard
+# 🚀 Antigravity Landing Page Wizard
 
-This wizard helps users generate a conversion-optimized landing page for their startup idea. It quizzes the user for key information and uses the **Google Stitch MCP** to generate a complete, deployable static site (e.g., for Firebase Hosting).
+This wizard helps users generate a conversion-optimized landing page for their startup idea. It quizzes the user for key information and uses the design skills of the **Google Stitch MCP** to generate a complete, high-converting, visually appealing, deployed static site on Firebase Hosting (which has free SSL for custom domains and a generous free tier).
 
-*Initially created for a pre-event for Startup Weekend Women Bohol 2026.*
+*Initially created for a pre-event for Startup Weekend Women Bohol 2026. 👩‍💻✨*
 
-## Overview
+## 🌟 Overview
 
 The wizard guides you through a step-by-step process to:
-1. Define your product's core identity and value proposition.
-2. Generate optimized copy for Hero, Problem, Value Props, and CTA sections.
-3. Select visual design directions.
-4. Generate the actual code for the landing page.
+1. 🧠 Define your product's core identity and value proposition.
+2. ✍️ Generate optimized copy for Hero, Problem, Value Props, and CTA sections.
+3. 🎨 Select visual design directions.
+4. 💻 Generate the actual code for the landing page.
 
-## Prerequisites
+## 🛠️ Prerequisites
 
 Before running the wizard, you must install the **Google Stitch MCP** in Antigravity:
 
-1.  **Get API Key**: Go to [Stitch Settings](https://stitch.withgoogle.com/settings) and click 'Create Key'.
-2.  **Configure Agent**:
+1.  **🔑 Get API Key**: Go to [Stitch Settings](https://stitch.withgoogle.com/settings) and click 'Create Key'.
+2.  **⚙️ Configure Agent**:
     *   Click the three dots in the top right of the Agent Panel.
     *   Select **MCP Servers** -> **Manage MCP Servers**.
     *   Select **View raw config** and add this entry:
@@ -35,7 +35,7 @@ Before running the wizard, you must install the **Google Stitch MCP** in Antigra
     }
     ```
 
-## Usage
+## 🪄 Usage
 
 ### Step 1: Initialize the Wizard
 
@@ -48,11 +48,11 @@ Execute the meta-prompt detailed in @landing_page_prompts.txt. Start from the be
 ### Step 2: Follow the Workflow
 
 The Agent will:
-1. Read the `landing_page_prompts.txt` file.
-2. Initialize the context.
-3. Ask you various questions to understand your product.
-4. Proceed through the prompts individually, writing your specific requirements to `specific_prompts.txt`.
-5. Guide you to create a Google Form and embed it.
+1. 📖 Read the `landing_page_prompts.txt` file.
+2. 🤖 Initialize the context.
+3. 🎤 Ask you various questions to understand your product.
+4. 📝 Proceed through the prompts individually, writing your specific requirements to `specific_prompts.txt`.
+5. 📋 Guide you to create a Google Form and embed it.
 
 ### Step 3: Trigger Generation
 
@@ -62,8 +62,8 @@ Once the wizard completes the interview and populates the specific prompts, trig
 Execute the instructions in @specific_prompts.txt
 ```
 
-### Features Included
-- **Design System**: Generates a tailored design system based on your preferences.
-- **Conversion Copy**: Creates PAS (Problem-Agitate-Solve) copy and value props.
-- **Technical**: Generates static HTML/CSS suitable for Firebase Hosting with minimal external dependencies.
-- **Boilerplate**: Includes links to Privacy Policy and Terms of Service.
+### ✨ Features Included
+- **🎨 Design System**: Generates a tailored design system based on your preferences.
+- **✍️ Conversion Copy**: Creates PAS (Problem-Agitate-Solve) copy and value props.
+- **⚡ Technical**: Generates static HTML/CSS suitable for Firebase Hosting with minimal external dependencies.
+- **📄 Boilerplate**: Includes links to Privacy Policy and Terms of Service.
