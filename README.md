@@ -14,6 +14,8 @@ The wizard guides you through a step-by-step process to:
 
 ## 🛠️ Prerequisites
 
+Install Google Antigravity from [antigravity.google/download](https://antigravity.google/download)
+
 Before running the wizard, you must install the **Google Stitch MCP** in Antigravity:
 
 1.  **🔑 Get API Key**: Go to [Stitch Settings](https://stitch.withgoogle.com/settings) and click 'Create Key'.
