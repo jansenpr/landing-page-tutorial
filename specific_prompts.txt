@@ -1,0 +1,138 @@
+CONTEXT:
+You are a world-class Direct Response Copywriter and experienced Startup Weekend Mentor. You specialize in helping teams validate ideas quickly (within 54 hours) by creating high-converting, credible, and punchy 'Smoke Test' landing pages. Your goal is to drive immediate action (Waitlist Join or Pre-sale). Use a tone that is urgent, professional, exciting, and clear. Avoid corporate jargon and fluff. Focus on the 'Transformation' and the 'Dream Outcome'.
+
+**PART 1: CORE IDENTITY & MARKET**
+1. Product Name: Dachshund Dating Service
+2. Company Name: Doxie Dates
+3. Domain Name: doxiedates.com
+4. Target Audience: Dachshund owners looking to breed their dogs
+
+**PART 2: THE PROBLEM & SOLUTION**
+5. Problem: Finding verified purebred, healthy mates is difficult and risky.
+6. Old Way: Facebook groups and word of mouth, which are often unreliable, slow, or localized.
+7. New Opportunity: A dedicated, dating-style app specifically for dachshunds to find the nearest suitable purebred mates.
+8. SWOT: 
+   - Strengths: Enthusiastic niche audience.
+   - Weaknesses: Potential for small audience size in some specific localities initially.
+   - Opportunities: Scaling into a hub for related sales (puppies, gear) and advertising.
+   - Threats: The "Network Effect" challenge (needing a critical mass of users to provide value).
+
+**PART 3: VALUE & MECHANISM**
+9. Unique Mechanism: Proximity-based, verification-first matching algorithm for pedigree dachshunds.
+10. Functional Benefit: Find a verified, healthy, and compatible match for your dachshund in under 48 hours.
+11. Emotional Dream Outcome: Total peace of mind and pride knowing you are continuing a healthy, prestigious pedigree line with zero stress.
+
+**PART 4: OFFER & ACTION**
+12. Primary CTA: Join the Founding Member Waitlist.
+13. Offer: Join for Free Today and get a "Priority Stud" badge when we launch.
+14. Reduce Risk/Friction: No credit card required. Join 500+ other verified Doxie owners already waiting.
+15. Insight Question: "What is your biggest struggle when trying to find a breeding partner for your dachshund?"
+
+**PART 5: CONTEXT**
+16. Style: Warm earthy tones (browns and creams to match Doxies) with a high-end, clean "Dating App" aesthetic. Playful but professional.
+
+**HERO SECTION**
+Headline: Pride, Prestige, and the Perfect Match: Doxie Breeding Made Simple
+Sub-headline: Our verification-first mechanism finds local, healthy, purebred dachshunds for your pup in under 48 hours. Launch your legacy today.
+
+**THE PROBLEM SECTION**
+Dear Dachshund Owner,
+
+* Are you tired of scrolling through unverified Facebook groups only to find "mates" with zero health history?
+* Do you feel like you're gambling with your Doxie's legacy every time you explore local word-of-mouth leads?
+* Are you frustrated by how difficult it is to find a truly compatible, purebred breeding partner nearby?
+
+You love your dachshund. They aren't just a pet; they are a member of your family and a bearer of a prestigious pedigree. You want to continue that line responsibly, but the "Old Way" is making it nearly impossible.
+
+Currently, you're stuck relying on unreliable social media groups or waiting weeks for a "friend of a friend" to call you back. Every day you wait is a missed opportunity, and every unverified lead is a massive risk to the health and future of your litter. Nothing feels secure, and the stress of finding a "good enough" match is keeping you from the joy of the process.
+
+There is a better way.
+
+Introducing Doxie Dates—the "New Opportunity" for responsible breeders. We’ve replaced the chaos of the internet with a sleek, verification-first matching app. No more guessing games. No more unreliable groups. Just a direct bridge to the healthy, purebred match your dachshund deserves.
+
+**VALUE PROPOSITIONS**
+1. Verified Pedigrees: Eliminate the guesswork and secure your dachshund’s prestigious legacy with 100% verified purebred pedigree matches.
+2. Proximity Matching: Stop traveling for miles and find the perfect, healthy breeding partner right in your local neighborhood.
+3. Health Screening: Protect your future litter with confidence by connecting only with mates that have documented health clearances.
+4. Dating App UI: Experience the freedom of modern matching with a sleek, easy-to-use interface designed specifically for dachshund owners.
+5. Direct Messenger: Skip the public group chaos and communicate securely with other serious breeders through our private, encrypted chat.
+6. Community Status: Join an elite circle of responsible breeders and gain the status your prestigious pedigree deserves.
+
+**SOCIAL PROOF**
+“The proximity matching is a game-changer. I’ve spent months looking for a suitable stud within a 50-mile radius with no luck. Having a dedicated 'dating app' for Doxies is exactly what the breeding community needs.”
+— Mark D., Registered Breeder
+
+**CALL TO ACTION**
+CTA Button Text: Join the Founding Member Waitlist
+Supporting Micro-Copy: Join 500+ verified Doxie owners. No credit card required.
+Optional Insight Question: What is your biggest struggle when trying to find a breeding partner for your dachshund?
+
+**FORM EMBED CODE**
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdf4MEURjGUbK4PV8u2KMfpN0yyi_M8CHloVWkZ3bymJRmVIw/viewform?embedded=true" width="640" height="1713" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+**DESIGN SYSTEM (REQUIRED)**
+- **Typography details**: Playfair Display for all Headings (elegant, warm serif); Roboto for all Body text (clean, approachable sans-serif).
+- **Color Palette**:
+    - Primary: Terracotta (#BF360C) - used for primary buttons and key highlights.
+    - Secondary: Soft Sand (#F5F5DC) - used for section backgrounds and container fills.
+    - Accent: Forest Green (#1B5E20) - used for small icons, success states, and subtle nature-inspired accents.
+    - Background: Warm White (#FEFDF9).
+    - Text: Deep Espresso (#2D1410).
+- **Component Styles**:
+    - Buttons: Large border-radius (rounded edges), soft ambient shadows, bold weight.
+    - Cards/Containers: Subtle borders (1px solid #E0D4C5) or soft shadows, large padding.
+    - Forms: Clean inputs with the primary color as the focus border.
+- **Layout principles**: Centered Hero section, high-quality emotional imagery, organic section transitions using subtle color shifts (Soft Sand to Warm White).
+
+'SITE GENERATION PROMPT: 
+
+1. **Setup**: Create a new Project in the Stitch MCP titled "Dachshund Dating Service Landing Page".
+2. **Generation**: Using the @stitch MCP and the new Project ID, generate a complete, high-fidelity landing page screen based on the structured content and design specifications in this file, following these instructions:
+   a. **File Management**: Save all resulting files (index.html, CSS, boilerplate pages) into the `output` folder.
+   b. **Design System**: Strictly adhere to the "DESIGN SYSTEM (REQUIRED)" section at the end of the file.
+   c. **Content Integration**:
+      - **Hero Section**: Use the selected Headline and Sub-headline.
+      - **Problem Section**: Implement the PAS (Problem-Agitate-Solve) copy.
+      - **Value Props**: Display the core features and benefit-driven headlines.
+      - **Social Proof**: Include the generated testimonials.
+      - **CTA**: Place the Call to Action and signup form as specified. Note: use the google form embed code for the form. **CRITICAL**: All Call to Action buttons must be implemented as anchor links (e.g., `#form-section`) that scroll the user down to the signup form section.
+   d. **Technical Requirements**:
+      - **Responsiveness**: The site MUST be fully responsive and look stunning on both Desktop and Mobile devices. Use a container-based layout that breathes on large screens but remains functional on small ones.
+      - Use semantic HTML and modern CSS.
+      - minimise dependencies on external libraries.
+      - optimize for fast loading and accessibility.
+      - the site should be static HTML/CSS/JS suitable for deployment as a static site to Firebase Hosting.
+   e. Add boilerplate pages for about us, privacy policy and terms of service in the `output` folder and link to them from the landing page footer.
+   f. If a Gemini chatbot is added do not make it require a login. It should be available to all visitors. It should not require microphone nor camera permissions.
+
+Execute the site generation using the Stitch MCP, save the files to the `output` directory, and provide the preview link or file path.
+
+**DEPLOYMENT INSTRUCTIONS (Agentic CLI):**
+- if the cli does not have node and npm installed and available, install it using the instructions here https://nodejs.org/en/download/
+- if the cli does not have firebase-tools installed and available, install it using `npm install -g firebase-tools`.
+
+1.  **Project Creation**: 
+    - Ask the user to go to [console.firebase.google.com](https://console.firebase.google.com) and create a new project named "Dachshund Dating Service".
+    - Ask them to Enable Google Analytics for the project when prompted.
+    - Ask them to reply with the "Project ID" (found in Project Settings (cog icon) > General, e.g., `my-app-12345`).
+
+2.  **Authentication**:
+    - Run `firebase login --no-localhost`.
+    - If not logged in, this will provide a URL and a code. Show these to the user and ask them to authenticate in their browser and paste the verification code back to you.
+
+3.  **Initialization**:
+    - Once logged in and provided with the Project ID, do NOT run `firebase init`.
+    - Instead, directly create the configuration files **inside the `output` folder**:
+      - Create `output/firebase.json` with hosting configuration: `{"hosting": {"public": "."}}`.
+      - Create `output/.firebaserc` with content: `{"projects": {"default": "USER_PROVIDED_PROJECT_ID"}}`.
+
+4.  **Deployment**:
+    - **Change directory** to the `output` folder.
+    - Run `firebase deploy --only hosting`.
+    - Provide the user with the final "Hosting URL" and display the following success message:
+    
+    "**The landing page is ready at: [Hosting URL]**
+
+    **TODO:**
+    -   **Add a custom domain**: Go to Firebase Console -> Hosting -> 'Add Custom Domain'. Enter your domain (e.g., www.example.com) and follow the onscreen instructions to add the TXT records to your DNS provider."
+"'

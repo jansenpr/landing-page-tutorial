@@ -3,6 +3,9 @@ EARLY STAGE STARTUP & STARTUP WEEKEND LANDING PAGE PROMPT TO CREATE SPECIFIC LAN
 This prompt is a long process, a meta-prompt which will make suggestions, quiz the user and output to a specific prompt suitable for their chosen startup.
 
 DEPENDENCY INSTALLATION:
+- if the cli does not have node and npm installed and available, install it using the instructions here https://nodejs.org/en/download/
+- if the cli does not have firebase-tools installed and available, install it using `npm install -g firebase-tools`.
+
 Tell the user 
 "Go to Google Stitch and get an api key from https://stitch.withgoogle.com/settings by clicking 'Create Key'
 Tell the user to do this to Install the Google Stitch MCP tool in Antigravity:
@@ -182,8 +185,9 @@ INSTRUCTIONS FOR THE USER:
 1. Please go to https://forms.new in your own browser.
 2. Title the form matching our 'Low-Risk/High-Reward offer'.
 3. Add fields: Name, Email (Required), and our selected 'Insight Question'.
-4. Click 'Send' -> '< >' (Embed) -> Copy the HTML code.
-5. Paste the embed code here in the chat.
+4. Click Publish. 
+5. Click the 3 dots in the top right corner -> Click 'Embed HTML' -> Copy the HTML code.
+6. Paste the embed code here in the chat.
 
 ACTION:
 Once the user provides the code, append it to `specific_prompts.txt` under a new section titled 'FORM EMBED CODE'."
@@ -218,29 +222,34 @@ Append this to specific_prompts.txt:
 
 1. **Setup**: Create a new Project in the Stitch MCP titled "[Product Name] Landing Page".
 2. **Generation**: Using the @stitch MCP and the new Project ID, generate a complete, high-fidelity landing page screen based on the structured content and design specifications in this file, following these instructions:
-   a. **Design System**: Strictly adhere to the "DESIGN SYSTEM (REQUIRED)" section at the end of the file.
-   b. **Content Integration**:
+   a. **File Management**: Save all resulting files (index.html, CSS, boilerplate pages) into the `output` folder.
+   b. **Design System**: Strictly adhere to the "DESIGN SYSTEM (REQUIRED)" section at the end of the file.
+   c. **Content Integration**:
       - **Hero Section**: Use the selected Headline and Sub-headline.
       - **Problem Section**: Implement the PAS (Problem-Agitate-Solve) copy.
       - **Value Props**: Display the core features and benefit-driven headlines.
       - **Social Proof**: Include the generated testimonials.
-      - **CTA**: Place the Call to Action and signup form as specified. Note: use the google form embed code for the form.
-   c. **Technical Requirements**:
-      - Ensure the site is fully responsive (mobile-friendly).
+      - **CTA**: Place the Call to Action and signup form as specified. Note: use the google form embed code for the form. **CRITICAL**: All Call to Action buttons must be implemented as anchor links (e.g., `#form-section`) that scroll the user down to the signup form section.
+   d. **Technical Requirements**:
+      - **Responsiveness**: The site MUST be fully responsive and look stunning on both Desktop and Mobile devices. Use a container-based layout that breathes on large screens but remains functional on small ones.
       - Use semantic HTML and modern CSS.
       - minimise dependencies on external libraries.
       - optimize for fast loading and accessibility.
-      - the site should be static HTML/CSS/JS suitable for deployment as a static site to Firebase Hosting (note NOT Firebase App Hosting)
-   d. Add boilerplate pages for about us, privacy policy and terms of service and link to them from the landing page footer.
-   e. If a Gemini chatbot is added do not make it require a login. It should be available to all visitors. It should not require microphone nor camera permissions.
+      - the site should be static HTML/CSS/JS suitable for deployment as a static site to Firebase Hosting.
+   e. Add boilerplate pages for about us, privacy policy and terms of service in the `output` folder and link to them from the landing page footer.
+   f. If a Gemini chatbot is added do not make it require a login. It should be available to all visitors. It should not require microphone nor camera permissions.
+   g. Add a favicon to the site. Create a favicon.ico in the `output` folder as the favicon.
 
-Execute the site generation using the Stitch MCP and provide the preview link or file path.
+Execute the site generation using the Stitch MCP, save the files to the `output` directory, and provide the preview link or file path.
 
 **DEPLOYMENT INSTRUCTIONS (Agentic CLI):**
+- if the cli does not have node and npm installed and available, install it using the instructions here https://nodejs.org/en/download/
+- if the cli does not have firebase-tools installed and available, install it using `npm install -g firebase-tools`.
+
 1.  **Project Creation**: 
     - Ask the user to go to [console.firebase.google.com](https://console.firebase.google.com) and create a new project named "[Product Name]".
     - Ask them to Enable Google Analytics for the project when prompted.
-    - Ask them to reply with the "Project ID" (found in Project Settings, e.g., `my-app-12345`).
+    - Ask them to reply with the "Project ID" (found in Project Settings (cog icon) > General, e.g., `my-app-12345`).
 
 2.  **Authentication**:
     - Run `firebase login --no-localhost`.
@@ -248,11 +257,12 @@ Execute the site generation using the Stitch MCP and provide the preview link or
 
 3.  **Initialization**:
     - Once logged in and provided with the Project ID, do NOT run `firebase init`.
-    - Instead, directly create the configuration files:
-      - Create `firebase.json` with standard hosting configuration pointing to your public folder (where `index.html` is).
-      - Create `.firebaserc` with content: `{"projects": {"default": "USER_PROVIDED_PROJECT_ID"}}`.
+    - Instead, directly create the configuration files **inside the `output` folder**:
+      - Create `output/firebase.json` with hosting configuration: `{"hosting": {"public": "."}}`.
+      - Create `output/.firebaserc` with content: `{"projects": {"default": "USER_PROVIDED_PROJECT_ID"}}`.
 
 4.  **Deployment**:
+    - **Change directory** to the `output` folder.
     - Run `firebase deploy --only hosting`.
     - Provide the user with the final "Hosting URL" and display the following success message:
     
