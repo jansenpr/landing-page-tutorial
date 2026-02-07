@@ -245,6 +245,8 @@ Execute the site generation using the Stitch MCP, save the files to the `output`
 **DEPLOYMENT INSTRUCTIONS (Agentic CLI):**
 - if the cli does not have node and npm installed and available, install it using the instructions here https://nodejs.org/en/download/
 - if the cli does not have firebase-tools installed and available, install it using `npm install -g firebase-tools`.
+- check if the cli is logged in to Firebase by running `firebase login --no-localhost`. If not logged in, this will provide a URL and a code. Show these to the user and ask them to authenticate in their browser and paste the verification code back to you.
+
 
 1.  **Project Creation**: 
     - Ask the user to go to [console.firebase.google.com](https://console.firebase.google.com) and create a new project named "[Product Name]".
