@@ -334,8 +334,23 @@ strong {
 
 .proof-avatars {
   display: flex;
-  font-size: 1.1rem;
-  gap: 4px;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.avatar-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid var(--bg);
+  margin-left: -12px;
+  object-fit: cover;
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.avatar-img:first-child {
+  margin-left: 0;
 }
 
 .proof-text {
