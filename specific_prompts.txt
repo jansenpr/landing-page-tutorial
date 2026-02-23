@@ -1,138 +1,316 @@
-CONTEXT:
+CONTEXT FOR GEMINI:
 You are a world-class Direct Response Copywriter and experienced Startup Weekend Mentor. You specialize in helping teams validate ideas quickly (within 54 hours) by creating high-converting, credible, and punchy 'Smoke Test' landing pages. Your goal is to drive immediate action (Waitlist Join or Pre-sale). Use a tone that is urgent, professional, exciting, and clear. Avoid corporate jargon and fluff. Focus on the 'Transformation' and the 'Dream Outcome'.
 
-**PART 1: CORE IDENTITY & MARKET**
-1. Product Name: Dachshund Dating Service
-2. Company Name: Doxie Dates
-3. Domain Name: doxiedates.com
-4. Target Audience: Dachshund owners looking to breed their dogs
+================================================================================
 
-**PART 2: THE PROBLEM & SOLUTION**
-5. Problem: Finding verified purebred, healthy mates is difficult and risky.
-6. Old Way: Facebook groups and word of mouth, which are often unreliable, slow, or localized.
-7. New Opportunity: A dedicated, dating-style app specifically for dachshunds to find the nearest suitable purebred mates.
-8. SWOT: 
-   - Strengths: Enthusiastic niche audience.
-   - Weaknesses: Potential for small audience size in some specific localities initially.
-   - Opportunities: Scaling into a hub for related sales (puppies, gear) and advertising.
-   - Threats: The "Network Effect" challenge (needing a critical mass of users to provide value).
+QUIZ ANSWERS
+================================================================================
 
-**PART 3: VALUE & MECHANISM**
-9. Unique Mechanism: Proximity-based, verification-first matching algorithm for pedigree dachshunds.
-10. Functional Benefit: Find a verified, healthy, and compatible match for your dachshund in under 48 hours.
-11. Emotional Dream Outcome: Total peace of mind and pride knowing you are continuing a healthy, prestigious pedigree line with zero stress.
+PART 1: CORE IDENTITY & MARKET
+1. Product Name: Little Leaf Cafe
+2. Company Name: Pages Group
+3. Domain Name: littleleaf.com
+4. Target Audience: Book and coffee lovers, students, and young professionals who want a peaceful, aesthetic "third space" to read, study, unwind, or work in a cozy but productive environment.
 
-**PART 4: OFFER & ACTION**
-12. Primary CTA: Join the Founding Member Waitlist.
-13. Offer: Join for Free Today and get a "Priority Stud" badge when we launch.
-14. Reduce Risk/Friction: No credit card required. Join 500+ other verified Doxie owners already waiting.
-15. Insight Question: "What is your biggest struggle when trying to find a breeding partner for your dachshund?"
+PART 2: THE PROBLEM & SOLUTION
+5. Problem/Pain Points:
+   - Coffee shops are too noisy for focused reading.
+   - Bookstores don't offer a relaxing drink-and-stay environment.
+   - Very few cozy "third spaces" exist that aren't malls.
+   - People want to slow down but don't know where to go.
 
-**PART 5: CONTEXT**
-16. Style: Warm earthy tones (browns and creams to match Doxies) with a high-end, clean "Dating App" aesthetic. Playful but professional.
+6. The "Old Way" (and why it fails):
+   - Read at home (but get distracted).
+   - Go to Starbucks (too noisy, crowded).
+   - Buy books online and never finish them.
+   - Scroll on their phones instead of reading.
+   Why it fails: No environment designed for focus. No community feeling. No curated reading experience.
 
-**HERO SECTION**
-Headline: Pride, Prestige, and the Perfect Match: Doxie Breeding Made Simple
-Sub-headline: Our verification-first mechanism finds local, healthy, purebred dachshunds for your pup in under 48 hours. Launch your legacy today.
+7. New Opportunity / Solution:
+   A hybrid cafe-bookspace offering:
+   - Curated books you can read in-store
+   - Short-term book rental
+   - Quiet reading zones
+   - Comfortable seating
+   - Specialty drinks designed for long stays
+   - Optional membership for unlimited reading hours
+   Not just selling coffee — selling atmosphere + focus + lifestyle.
 
-**THE PROBLEM SECTION**
-Dear Dachshund Owner,
+8. SWOT Analysis:
+   Strengths: Unique hybrid concept, strong aesthetic branding potential, community-driven, instagrammable.
+   Weaknesses: Higher operational cost (books + cafe), book damage/loss risk, slower table turnover.
+   Opportunities: Membership model, book clubs & events, author meetups, student partnerships, merchandise (tote bags, bookmarks).
+   Threats: Big coffee chains (Starbucks), online book platforms (Amazon), digital reading (Kindle).
 
-* Are you tired of scrolling through unverified Facebook groups only to find "mates" with zero health history?
-* Do you feel like you're gambling with your Doxie's legacy every time you explore local word-of-mouth leads?
-* Are you frustrated by how difficult it is to find a truly compatible, purebred breeding partner nearby?
+PART 3: VALUE & MECHANISM
+9. Unique Mechanism: Curated Mood-Based Library System — books categorized by mood ("Comfort Reads", "Deep Focus", "Self-Growth", "Creative Boost") plus a Book & Brew pairing experience.
 
-You love your dachshund. They aren't just a pet; they are a member of your family and a bearer of a prestigious pedigree. You want to continue that line responsibly, but the "Old Way" is making it nearly impossible.
+10. Functional Benefit + Timeframe:
+    - Finish 1 book every month without distractions.
+    - Get 3-4 hours of deep focus in one visit.
 
-Currently, you're stuck relying on unreliable social media groups or waiting weeks for a "friend of a friend" to call you back. Every day you wait is a missed opportunity, and every unverified lead is a massive risk to the health and future of your litter. Nothing feels secure, and the stress of finding a "good enough" match is keeping you from the joy of the process.
+11. Emotional Dream Outcome:
+    - "Finally have a space that feels like home."
+    - "Feel calm, focused, and inspired."
+    - "Become the kind of person who actually finishes books."
+    Lifestyle positioning: identity shift.
 
-There is a better way.
+PART 4: OFFER & ACTION
+12. Primary CTA: Reserve a Seat / Book a Reading Session / Explore the Menu
 
-Introducing Doxie Dates—the "New Opportunity" for responsible breeders. We’ve replaced the chaos of the internet with a sleek, verification-first matching app. No more guessing games. No more unreliable groups. Just a direct bridge to the healthy, purebred match your dachshund deserves.
+13. Low-Risk / High-Reward Offer:
+    - Free 1-hour reading pass
+    - Free welcome drink on first visit
 
-**VALUE PROPOSITIONS**
-1. Verified Pedigrees: Eliminate the guesswork and secure your dachshund’s prestigious legacy with 100% verified purebred pedigree matches.
-2. Proximity Matching: Stop traveling for miles and find the perfect, healthy breeding partner right in your local neighborhood.
-3. Health Screening: Protect your future litter with confidence by connecting only with mates that have documented health clearances.
-4. Dating App UI: Experience the freedom of modern matching with a sleek, easy-to-use interface designed specifically for dachshund owners.
-5. Direct Messenger: Skip the public group chaos and communicate securely with other serious breeders through our private, encrypted chat.
-6. Community Status: Join an elite circle of responsible breeders and gain the status your prestigious pedigree deserves.
+14. Friction Reduction:
+    - Cancel membership anytime
+    - Flexible hourly rates
+    - First visit discount
 
-**SOCIAL PROOF**
-“The proximity matching is a game-changer. I’ve spent months looking for a suitable stud within a 50-mile radius with no luck. Having a dedicated 'dating app' for Doxies is exactly what the breeding community needs.”
-— Mark D., Registered Breeder
+15. Insight Question:
+    - "Do you enjoy sipping coffee while reading a book?"
+    - "How often do you finish a book?"
 
-**CALL TO ACTION**
-CTA Button Text: Join the Founding Member Waitlist
-Supporting Micro-Copy: Join 500+ verified Doxie owners. No credit card required.
-Optional Insight Question: What is your biggest struggle when trying to find a breeding partner for your dachshund?
+PART 5: CONTEXT
+16. Key Market Opportunities & Threats:
+    Opportunities: Rise of remote work, slow living trend, BookTok reading culture romanticization, growing need for third spaces.
+    Threats: Risk of looking like a normal cafe if not properly differentiated.
 
-**FORM EMBED CODE**
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdf4MEURjGUbK4PV8u2KMfpN0yyi_M8CHloVWkZ3bymJRmVIw/viewform?embedded=true" width="640" height="1713" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+17. Visual Preferences:
+    Cozy Warm Aesthetic — warm brown, cream, sage green. Wooden shelves, soft lighting, jazz/lo-fi vibe.
 
-**DESIGN SYSTEM (REQUIRED)**
-- **Typography details**: Playfair Display for all Headings (elegant, warm serif); Roboto for all Body text (clean, approachable sans-serif).
-- **Color Palette**:
-    - Primary: Terracotta (#BF360C) - used for primary buttons and key highlights.
-    - Secondary: Soft Sand (#F5F5DC) - used for section backgrounds and container fills.
-    - Accent: Forest Green (#1B5E20) - used for small icons, success states, and subtle nature-inspired accents.
-    - Background: Warm White (#FEFDF9).
-    - Text: Deep Espresso (#2D1410).
-- **Component Styles**:
-    - Buttons: Large border-radius (rounded edges), soft ambient shadows, bold weight.
-    - Cards/Containers: Subtle borders (1px solid #E0D4C5) or soft shadows, large padding.
-    - Forms: Clean inputs with the primary color as the focus border.
-- **Layout principles**: Centered Hero section, high-quality emotional imagery, organic section transitions using subtle color shifts (Soft Sand to Warm White).
+================================================================================
 
-'SITE GENERATION PROMPT: 
+HERO SECTION
+================================================================================
 
-1. **Setup**: Create a new Project in the Stitch MCP titled "Dachshund Dating Service Landing Page".
-2. **Generation**: Using the @stitch MCP and the new Project ID, generate a complete, high-fidelity landing page screen based on the structured content and design specifications in this file, following these instructions:
-   a. **File Management**: Save all resulting files (index.html, CSS, boilerplate pages) into the `output` folder.
-   b. **Design System**: Strictly adhere to the "DESIGN SYSTEM (REQUIRED)" section at the end of the file.
-   c. **Content Integration**:
-      - **Hero Section**: Use the selected Headline and Sub-headline.
-      - **Problem Section**: Implement the PAS (Problem-Agitate-Solve) copy.
-      - **Value Props**: Display the core features and benefit-driven headlines.
-      - **Social Proof**: Include the generated testimonials.
-      - **CTA**: Place the Call to Action and signup form as specified. Note: use the google form embed code for the form. **CRITICAL**: All Call to Action buttons must be implemented as anchor links (e.g., `#form-section`) that scroll the user down to the signup form section.
-   d. **Technical Requirements**:
-      - **Responsiveness**: The site MUST be fully responsive and look stunning on both Desktop and Mobile devices. Use a container-based layout that breathes on large screens but remains functional on small ones.
+Headline: Your Perfect Reading Escape — Where Every Sip Sparks a Story
+
+Sub-headline: Little Leaf is a book-lover's cafe with mood-curated shelves and quiet reading zones — so you read more, stress less, and find your flow in one visit.
+
+================================================================================
+
+THE PROBLEM SECTION
+================================================================================
+
+Dear Book Lover,
+
+- Are you tired of trying to read in a coffee shop — only to give up because it's too loud?
+- Do you keep buying books you never finish because home is just as distracting?
+- Do you wish there was somewhere quiet, comfortable, and actually designed for people like you?
+
+You already know the feeling.
+
+You sit down at your usual cafe. You open your book. Someone laughs too loud at the table next to you. A playlist you didn't choose starts playing. Your order takes forever. **Before you've read a single page, you've already given up.**
+
+You try reading at home. But the dishes need doing. Your phone buzzes. Netflix is right there. **You mean to read. You just never actually do.**
+
+It's not a willpower problem. **It's an environment problem.**
+
+Every "third space" you have access to was built for someone else — not for the reader in you. Not for the version of you that wants to slow down, think clearly, and actually live a little.
+
+The cost of staying stuck? Another year of unfinished books on your shelf. Another afternoon scrolling instead of savoring. Another version of yourself you meant to become — but didn't quite get there.
+
+But here's the thing: you don't need more discipline.
+
+**You need Little Leaf.**
+
+We didn't build another coffee shop. We built the space that readers have always deserved — quiet reading zones, specialty drinks crafted for long stays, and a mood-curated library that matches the perfect book to how you're feeling right now. One visit and you'll understand why this is different. This is the place you come to become the person who reads.
+
+================================================================================
+
+VALUE PROPOSITIONS
+================================================================================
+
+1. Core Feature: Mood-Based Library System
+   Headline: Discover Your Next Favorite Book in 60 Seconds Using Our Curated Mood-Based Shelf System
+
+2. Core Feature: Book & Brew Pairing
+   Headline: Sip the Perfect Drink Matched to Your Book and Sink Into 3-4 Hours of Blissful Deep Focus
+
+3. Core Feature: Quiet Reading Zones
+   Headline: Find Genuine Peace in Our Distraction-Free Reading Zones Built for People Who Actually Want to Think
+
+4. Core Feature: Specialty Drinks for Long Stays
+   Headline: Stay Longer and Recharge with Specialty Brews Crafted to Fuel a Full Afternoon of Reading
+
+5. Core Feature: Flexible Membership
+   Headline: Read Unlimited Books Every Month with a Flexible Membership You Can Cancel Anytime
+
+6. Core Feature: Community & Events
+   Headline: Connect with Fellow Readers at Exclusive Book Clubs, Author Meetups, and Literary Events
+
+================================================================================
+
+SOCIAL PROOF
+================================================================================
+
+Testimonial 1:
+"I've been dreaming of a place like this for years. Other cafes are chaos, home is full of distractions — there's genuinely nowhere to go if you just want to sit, read, and breathe. Little Leaf is the third space our city has been missing. I'm counting down the days until it opens."
+— Sofia Reyes, Freelance Graphic Designer
+
+Testimonial 2:
+"As a student, I spend so much money hopping between coffee shops just trying to find one that's quiet enough to concentrate. The idea that Little Leaf pairs your drink to your reading mood? That's not just a cafe — that's an experience. I'm already telling my whole study group about this."
+— Marcus Tan, University Student
+
+Testimonial 3:
+"I have a whole shelf of books I bought and never finished. Sound familiar? The problem was never motivation — it was environment. Finally, a place that understands that. I've been waiting for something like Little Leaf my entire adult life. Take my money. Take my weekends. Just open already."
+— Diane Lim, Young Professional & BookTok Enthusiast
+
+================================================================================
+
+CALL TO ACTION
+================================================================================
+
+CTA Button Text: Book a Reading Session
+
+Supporting Micro-Copy: Get your first hour on us — no commitment. Just show up, sip, and read.
+
+Friction Reducers: Cancel membership anytime. Flexible hourly rates. First visit discount.
+
+Optional Insight Question (on signup form): "Do you enjoy sipping coffee while reading a book?"
+
+================================================================================
+
+FORM EMBED CODE
+================================================================================
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdvDcV_wY6IWN-jioGkUKI79W0SeVpKvb2kAvRFGxhBkrRnnw/viewform?embedded=true" width="640" height="799" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+================================================================================
+
+DESIGN SYSTEM (REQUIRED)
+================================================================================
+
+Visual Direction: Blend of "Cozy Antiquarian" (A) + "Modern Sage" (B)
+Style: Warm Minimalist — literary warmth meets clean, modern aesthetics.
+Feel: Like a beloved independent bookshop redesigned by a boutique lifestyle brand.
+Mood: Calm, focused, inviting, quietly aspirational.
+
+--- LAYOUT ---
+- Hero: Split-screen layout — bold headline and CTA on the left, warm lifestyle imagery on the right.
+- Sections alternate between warm parchment (#FAF6EF) and soft sage-tinted white (#F5F0E8) backgrounds.
+- Generous whitespace and container-based layouts that breathe on large screens.
+- Centered section headings with subtle decorative dividers (leaf or book motif if possible).
+
+--- COLOR PALETTE ---
+- Primary:    #5C3D2E  (Dark Espresso Brown) — headings, CTA buttons, key accents
+- Secondary:  #4A7C59  (Forest Sage Green) — secondary accents, icons, borders, hover states
+- Accent:     #C9A96E  (Golden Oat / Warm Caramel) — highlights, underlines, badge elements
+- Background: #FAF6EF  (Aged Parchment / Warm Off-White) — main page background
+- Surface:    #F5F0E8  (Soft Warm White) — alternating section backgrounds, cards
+- Text:       #2C1A0E  (Deep Ink Brown) — body copy
+- Text Light: #6B5246  (Warm Taupe) — subheadings, captions, metadata
+
+--- TYPOGRAPHY ---
+- Heading Font: "Playfair Display" (Google Fonts) — elegant serif for all H1, H2, H3
+- Body Font:    "Inter" (Google Fonts) — clean, modern sans-serif for body copy and UI
+- Heading Sizes: H1: 3rem, H2: 2rem, H3: 1.4rem (desktop); scale down ~20% on mobile
+- Body Size: 1rem (16px), line-height: 1.75
+- Letter-spacing on headings: 0.01em
+
+--- COMPONENT STYLES ---
+
+Buttons (Primary):
+- Background: #5C3D2E (Espresso Brown)
+- Text: #FAF6EF (Parchment)
+- Border-radius: 6px
+- Padding: 14px 32px
+- Font: Inter, 600 weight
+- Hover: Background shifts to #4A7C59 (Sage Green) with smooth transition (0.3s ease)
+
+Buttons (Secondary / Ghost):
+- Border: 2px solid #5C3D2E
+- Text: #5C3D2E
+- Background: transparent
+- Hover: fill with #5C3D2E, text becomes #FAF6EF
+
+Cards (Value Props, Testimonials):
+- Background: #FFFFFF or #F5F0E8
+- Border: 1px solid #E8D5B7
+- Border-radius: 12px
+- Box-shadow: 0 2px 16px rgba(92, 61, 46, 0.07)
+- Padding: 28px
+- Hover: gentle lift (translateY(-4px)) with shadow increase
+
+Forms:
+- Input border: 1px solid #C9A96E (Golden Oat)
+- Input focus: border-color #4A7C59 (Sage), soft glow outline
+- Input border-radius: 6px
+- Label font: Inter, 500 weight, #2C1A0E
+
+--- LAYOUT PRINCIPLES ---
+- Max content width: 1200px, centered with auto margins
+- Section padding: 80px vertical (desktop), 48px (mobile)
+- Grid: CSS Grid for value props (3 columns desktop, 1 column mobile)
+- The Google Form embed should be centered in a warm card container with matching styling
+- Footer: Dark espresso (#2C1A0E) background with parchment (#FAF6EF) text
+- All CTA buttons must be anchor links scrolling to the signup form section (#form-section)
+
+================================================================================
+
+SITE GENERATION PROMPT
+================================================================================
+
+1. Setup: Create a new Project in the Stitch MCP titled "Little Leaf Cafe Landing Page".
+
+2. Generation: Using the Stitch MCP and the new Project ID, generate a complete, high-fidelity landing page screen based on the structured content and design specifications in this file, following these instructions:
+
+   a. File Management: Save all resulting files (index.html, CSS, boilerplate pages) into the `output` folder.
+
+   b. Design System: Strictly adhere to the "DESIGN SYSTEM (REQUIRED)" section above.
+
+   c. Content Integration:
+      - Hero Section: Use the selected Headline and Sub-headline.
+      - Problem Section: Implement the PAS (Problem-Agitate-Solve) copy.
+      - Value Props: Display all 6 core features and benefit-driven headlines.
+      - Social Proof: Include all 3 generated testimonials.
+      - CTA: Place the Call to Action and signup form as specified.
+        NOTE: Use the Google Form embed code for the form.
+        CRITICAL: All Call to Action buttons must be implemented as anchor links (e.g., `#form-section`) that scroll the user down to the signup form section.
+
+   d. Technical Requirements:
+      - Responsiveness: The site MUST be fully responsive on Desktop and Mobile. Use a container-based layout.
       - Use semantic HTML and modern CSS.
-      - minimise dependencies on external libraries.
-      - optimize for fast loading and accessibility.
-      - the site should be static HTML/CSS/JS suitable for deployment as a static site to Firebase Hosting.
-   e. Add boilerplate pages for about us, privacy policy and terms of service in the `output` folder and link to them from the landing page footer.
-   f. If a Gemini chatbot is added do not make it require a login. It should be available to all visitors. It should not require microphone nor camera permissions.
+      - Minimise dependencies on external libraries.
+      - Optimise for fast loading and accessibility.
+      - The site must be static HTML/CSS/JS suitable for Firebase Hosting deployment.
 
-Execute the site generation using the Stitch MCP, save the files to the `output` directory, and provide the preview link or file path.
+   e. Add boilerplate pages for About Us, Privacy Policy, and Terms of Service in the `output` folder and link to them from the landing page footer.
 
-**DEPLOYMENT INSTRUCTIONS (Agentic CLI):**
-- if the cli does not have node and npm installed and available, install it using the instructions here https://nodejs.org/en/download/
-- if the cli does not have firebase-tools installed and available, install it using `npm install -g firebase-tools`.
+   f. Do NOT add a chatbot that requires login, microphone, or camera permissions.
 
-1.  **Project Creation**: 
-    - Ask the user to go to [console.firebase.google.com](https://console.firebase.google.com) and create a new project named "Dachshund Dating Service".
-    - Ask them to Enable Google Analytics for the project when prompted.
-    - Ask them to reply with the "Project ID" (found in Project Settings (cog icon) > General, e.g., `my-app-12345`).
+   g. Add a favicon.ico to the `output` folder.
 
-2.  **Authentication**:
-    - Run `firebase login --no-localhost`.
-    - If not logged in, this will provide a URL and a code. Show these to the user and ask them to authenticate in their browser and paste the verification code back to you.
+3. Execute site generation using Stitch MCP, save files to the `output` directory, and provide the preview link or file path.
 
-3.  **Initialization**:
-    - Once logged in and provided with the Project ID, do NOT run `firebase init`.
-    - Instead, directly create the configuration files **inside the `output` folder**:
-      - Create `output/firebase.json` with hosting configuration: `{"hosting": {"public": "."}}`.
-      - Create `output/.firebaserc` with content: `{"projects": {"default": "USER_PROVIDED_PROJECT_ID"}}`.
+DEPLOYMENT INSTRUCTIONS (Agentic CLI):
+- Check if firebase-tools is installed; if not, run: npm install -g firebase-tools
+- Run: firebase login --no-localhost
+  If not logged in, show the URL and code to the user and ask them to authenticate.
 
-4.  **Deployment**:
-    - **Change directory** to the `output` folder.
-    - Run `firebase deploy --only hosting`.
-    - Provide the user with the final "Hosting URL" and display the following success message:
-    
-    "**The landing page is ready at: [Hosting URL]**
+Step 1 - Project Creation:
+  Ask the user to go to https://console.firebase.google.com and create a new project named "Little Leaf Cafe".
+  Ask them to enable Google Analytics when prompted.
+  Ask them to reply with the Project ID (found in Project Settings > General).
 
-    **TODO:**
-    -   **Add a custom domain**: Go to Firebase Console -> Hosting -> 'Add Custom Domain'. Enter your domain (e.g., www.example.com) and follow the onscreen instructions to add the TXT records to your DNS provider."
-"'
+Step 2 - Authentication:
+  Run: firebase login --no-localhost
+
+Step 3 - Initialization (do NOT run firebase init):
+  Create output/firebase.json: {"hosting": {"public": "."}}
+  Create output/.firebaserc: {"projects": {"default": "USER_PROVIDED_PROJECT_ID"}}
+
+Step 4 - Deployment:
+  Change directory to the `output` folder.
+  Run: firebase deploy --only hosting
+  Provide the user with the final Hosting URL.
+
+  Success message:
+  "The landing page is ready at: [Hosting URL]
+
+  TODO:
+  - Add a custom domain: Go to Firebase Console -> Hosting -> 'Add Custom Domain'.
+    Enter your domain (e.g., www.littleleaf.com) and follow the onscreen instructions."
+
+================================================================================
