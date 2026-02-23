@@ -227,8 +227,15 @@ strong {
   flex-shrink: 0;
 }
 
+.logo-img {
+  height: 32px;
+  width: auto;
+  object-fit: contain;
+}
+
 .logo-icon {
-  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
 }
 
 .nav-links {
@@ -361,8 +368,10 @@ strong {
   z-index: 10;
 }
 
-.hero-float-card .float-icon {
-  font-size: 1.8rem;
+.float-icon-img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
 }
 
 .hero-float-card strong {
@@ -470,6 +479,14 @@ strong {
 .feature-icon {
   font-size: 2.4rem;
   margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.card-icon-img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
 }
 
 .feature-card h3 {
