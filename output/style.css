@@ -299,7 +299,17 @@ strong {
 
 .hero-headline {
   margin-bottom: 20px;
+  font-style: normal;
+}
+
+.h-main {
+  display: block;
+}
+
+.h-accent {
+  display: block;
   font-style: italic;
+  color: var(--secondary);
 }
 
 .hero-sub {
