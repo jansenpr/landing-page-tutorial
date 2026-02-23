@@ -1,0 +1,16 @@
+# Firebase
+.firebase/
+.firebaserc
+# Note: Keep .firebaserc if you want to share the project ID, 
+# but usually, it's personal to your account.
+# For now, let's keep it if you want the "whole" setup.
+
+# Logs and Temps
+*.log
+output/login_output.txt
+output/projects.txt
+output/.temp
+
+# OS files
+.DS_Store
+Thumbs.db
