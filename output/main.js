@@ -38,3 +38,32 @@ window.addEventListener('scroll', () => {
         navHeader.style.boxShadow = '0 1px 4px rgba(92,61,46,0.06)';
     }
 }, { passive: true });
+
+// --- Smooth scroll for hash links ---
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+
+        e.preventDefault();
+
+        if (targetId === '#top') {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        } else {
+            const targetEl = document.querySelector(targetId);
+            if (targetEl) {
+                const navOffset = 68; // height of sticky nav
+                const elementPosition = targetEl.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - navOffset;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        }
+    });
+});
