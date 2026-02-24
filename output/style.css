@@ -163,6 +163,18 @@ strong {
   padding: 16px 40px;
 }
 
+/* === SCROLL FADE ANIMATION === */
+.fade-up {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* === SECTION COMMON === */
 .section-label {
   display: inline-block;
@@ -391,7 +403,8 @@ strong {
   box-shadow: var(--shadow-lg);
   font-size: 0.85rem;
   z-index: 10;
-  transition: transform var(--transition);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    box-shadow 0.4s ease;
 }
 
 .hero-float-card:hover {
@@ -543,12 +556,15 @@ strong {
   border-radius: var(--radius-md);
   padding: 32px 28px;
   box-shadow: var(--shadow-sm);
-  transition: transform var(--transition), box-shadow var(--transition);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    box-shadow 0.4s ease,
+    border-color 0.4s ease;
 }
 
 .feature-card:hover {
-  transform: translateY(-6px);
-  box-shadow: var(--shadow-md);
+  transform: translateY(-8px) rotate(-1.2deg);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--accent);
 }
 
 .feature-icon {
@@ -624,15 +640,16 @@ strong {
   border-radius: var(--radius-md);
   padding: 32px 28px;
   box-shadow: var(--shadow-sm);
-  transition: transform var(--transition), box-shadow var(--transition);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    box-shadow 0.4s ease;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
 .testimonial-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
+  transform: translateY(-8px) rotate(-1.5deg);
+  box-shadow: var(--shadow-lg);
 }
 
 .stars {
@@ -813,19 +830,7 @@ blockquote::after {
   line-height: 1.5;
 }
 
-/* =============================================
-   SCROLL FADE ANIMATION
-   ============================================= */
-.fade-up {
-  opacity: 0;
-  transform: translateY(28px);
-  transition: opacity 0.65s ease, transform 0.65s ease;
-}
 
-.fade-up.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
 
 /* =============================================
    RESPONSIVE — TABLET (≤ 1024px)
